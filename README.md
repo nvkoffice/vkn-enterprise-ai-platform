@@ -113,8 +113,8 @@ Mermaid diagram of the pipeline (copy from previous conversation) is in `05-diag
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/nvkoffice/AI.git
-   cd AI
+   git clone https://github.com/nvkoffice/vkn-enterprise-ai-platform.git
+   cd vkn-enterprise-ai-platform
    ```
 2. **Start with the reference architecture**
    - Open `01-reference-architecture/10 layer AI reference architecture - VKN.pdf`  
