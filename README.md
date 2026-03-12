@@ -81,16 +81,16 @@ VKN-Enterprise-AI-Platform/
 
 | Layer                  | Tools / Technologies                                      |
 |------------------------|-----------------------------------------------------------|
-| Orchestration          | Kubeflow Pipelines v2 + ArgoCD (GitOps)                   |
-| Data                   | Kafka, Spark, lakeFS, Feast Feature Store                 |
+| Orchestration          | Kubeflow Pipelines v2 + ArgoCD (GitOps) , Semantec karnel |
+| Data                   | Kafka, Spark, lakeFS, DataBrick  Feature Store            |
 | Training               | Ray (KubeRay), PyTorch/TensorFlow, DeepSpeed, FSDP        |
 | Registry & Tracking    | MLflow Model Registry                                     |
-| Serving & Inference    | KServe + NVIDIA Triton Inference Server                   |
-| RAG & Agents           | LangGraph, LlamaIndex, NeMo Guardrails                    |
-| Monitoring             | Prometheus + Grafana + Evidently AI + OpenTelemetry       |
-| Security               | Zero Trust (RBAC + Vault + Trivy + mTLS)                  |
+| Serving & Inference    | KServe + Ray + NVIDIA Triton Inference Server             |
+| RAG & Agents           | LangGraph, LlamaIndex, NeMo Guardrails  + Semantec karnel |
+| Monitoring             | Prometheus + Grafana + Evidently AI + OpenTelemetry + Fidler|
+| Security               | Zero Trust (RBAC + MFA)                  |
 | Optimization           | LoRA, Quantization, Model Sharding, Dynamic Batching      |
-| Cost & Sustainability  | Spot GPUs + FinOps + GreenOps dashboards                  |
+| Cost & Sustainability  | Spot GPUs + FinOps + GreenOps dashboards               |
 
 ---
 
